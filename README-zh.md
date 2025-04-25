@@ -25,7 +25,7 @@
 首先在你的 Linux 服务器\* 上下载脚本：
 
 ```bash
-wget -O openvpn.sh https://get.vpnsetup.net/ovpn
+wget -O openvpn.sh https://raw.githubusercontent.com/jiu-chuan/openvpn-install/refs/heads/master/openvpn-install.sh
 ```
 
 \* 一个云服务器，虚拟专用服务器 (VPS) 或者专用服务器。
