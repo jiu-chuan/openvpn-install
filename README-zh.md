@@ -36,7 +36,7 @@ sudo yum makecache
 
 ```bash
 cd /root/
-curl -O openvpn.sh https://raw.githubusercontent.com/jiu-chuan/openvpn-install/refs/heads/master/openvpn-install.sh
+curl -O https://raw.githubusercontent.com/jiu-chuan/openvpn-install/refs/heads/master/openvpn-install.sh
 ```
 
 \* 一个云服务器，虚拟专用服务器 (VPS) 或者专用服务器。
@@ -44,7 +44,7 @@ curl -O openvpn.sh https://raw.githubusercontent.com/jiu-chuan/openvpn-install/r
 **选项 1:** 使用默认选项自动安装 OpenVPN。
 
 ```bash
-sudo bash openvpn.sh --auto
+sudo bash openvpn-install.sh --auto
 ```
 
 <details>
@@ -62,7 +62,7 @@ sudo bash openvpn.sh --auto
 **选项 2:** 使用自定义选项进行交互式安装。
 
 ```bash
-sudo bash openvpn.sh
+sudo bash openvpn-install.sh
 ```
 
 你可以自定义以下选项：VPN 服务器的域名，协议 (TCP/UDP) 和端口，VPN 客户端的 DNS 服务器以及第一个客户端的名称。
