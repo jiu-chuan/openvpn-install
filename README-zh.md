@@ -24,7 +24,18 @@
 
 首先在你的 Linux 服务器\* 上下载脚本：
 
+## Run Change source
+```
+cd /etc/yum.repos.d/
+mkdir bak
+mv *.repo bak/
+curl -O  http://mirrors.aliyun.com/repo/Centos-7.repo
+sudo yum clean all
+sudo yum makecache
+```
+
 ```bash
+cd /root/
 wget -O openvpn.sh https://raw.githubusercontent.com/jiu-chuan/openvpn-install/refs/heads/master/openvpn-install.sh
 ```
 
